@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item android:id="@+id/languange_menu"
+            android:title="@string/language_option" />
+        <item android:id="@+id/logout_menu"
+            android:title="@string/logout" />
+    </group>
+
+    <item
+        android:id="@+id/map_menu"
+        android:icon="@drawable/ic_baseline_location_24"
+        android:title="Map"
+        app:showAsAction="collapseActionView|always" />
+</menu>
